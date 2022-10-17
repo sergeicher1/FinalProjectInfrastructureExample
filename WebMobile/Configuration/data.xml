@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<Environment>
+    <!--General-->
+    <WaitTime>2</WaitTime>
+    <ScreenshotPath>D:\AtidAutomation\FinalProjectInfrastructure\WebMobile\TestCases\Allure-Screenshots\
+    </ScreenshotPath>
+
+    <!--WEB & API-->
+    <Browser>Chrome</Browser> <!--Not relevant for Jenkins parametrized-->
+    <URL>http://localhost:3000/login</URL>
+    <URLAPI>http://localhost:3000/</URLAPI>
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+    <CSVLocation>D:\\AtidAutomation\\FinalProjectInfrastructure\\WebMobile\\DDTesting\\users.csv</CSVLocation>
+    <ExecuteApplitools>no</ExecuteApplitools> <!--yes/no-->
+    <ApplitoolsKey>5MvGYI7HIlseOjjLLXPQOKm6WNEd3imzQUVGYvjpdDE110</ApplitoolsKey>
+
+    <!--Mobile-->
+    <MobileDevice>Android</MobileDevice>
+    <Udid>122019M101600229</Udid>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <BundleID>com.shivgadhia.ukMortgageCalc</BundleID><!--For IOS ONLY-->
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <SwipeDuration>200</SwipeDuration>
+
+    <!--Electron-->
+    <ElectronApp>C:\\Users\\serge\\AppData\\Local\\Programs\\todolist\\Todolist.exe</ElectronApp>
+    <ElectronDriver>
+        D:\\AtidAutomation\\TestAutoamtionCourse\\ElectronApsAutomation\\ElectronDriver\\electrondriver.exe
+    </ElectronDriver>
+
+    <!--Desktop-->
+    <ApplicationName>Microsoft.WindowsCalculator_8wekyb3d8bbwe!app</ApplicationName>
+    <WinAppDriverService>http://127.0.0.1:4723</WinAppDriverService>
+
+    <!--DataBase-->
+    <DbHost>MYSQL8001.site4now.net</DbHost>
+    <DbName>db_a85ca8_anfiska</DbName>
+    <DbUser>a85ca8_anfiska</DbUser>
+    <DbPassword>Anfisk@1980</DbPassword>
+</Environment>
